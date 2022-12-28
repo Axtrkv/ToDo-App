@@ -132,7 +132,7 @@ body {
     text-align: center;
 }
 
-.added .first {
+.list .listItem {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -150,7 +150,7 @@ body {
     margin-right: 24px;
 }
 
-.added .Task {
+.list .Task {
     width: 476px;
     height: 24px;
     font-weight: 400;
@@ -164,47 +164,7 @@ body {
     flex-grow: 1;
 }
 
-.added .second {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 8px 12px;
-    gap: 8px;
-    width: 516px;
-    height: 40px;
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-    margin-top: 16px;
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-.added .third {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 8px 12px;
-    gap: 8px;
-    width: 516px;
-    height: 40px;
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-    margin-top: 16px;
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-.added .third .Task {
-    text-decoration: line-through;
-}
-
-.added .check {
+.list .check {
     width: 24px;
     height: 24px;
     background: #EBECF1;
@@ -215,7 +175,7 @@ body {
     flex-grow: 0;
 }
 
-.added .inProcess {
+.inProcess {
     width: 24px;
     height: 24px;
     background: #1F4068;
@@ -226,7 +186,7 @@ body {
     flex-grow: 0;
 }
 
-.added .remove {
+.remove {
     width: 24px;
     height: 24px;
     background: #DB6969;
