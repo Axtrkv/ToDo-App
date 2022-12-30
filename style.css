@@ -98,7 +98,7 @@ body {
     text-align: center;
 }
 
-.all .removeBtn {
+.removeBtn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,7 +114,7 @@ body {
     flex-grow: 0;
 }
 
-.all .removeBtn.ex {
+.removeBtn.ex {
     width: 48px;
     height: 48px;
     font-family: 'Roboto Mono';
@@ -132,7 +132,7 @@ body {
     text-align: center;
 }
 
-.list .listItem {
+.listItem {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -150,7 +150,7 @@ body {
     margin-right: 24px;
 }
 
-.list .Task {
+.Task {
     width: 476px;
     height: 24px;
     font-weight: 400;
@@ -164,7 +164,7 @@ body {
     flex-grow: 1;
 }
 
-.list .check {
+.check {
     width: 24px;
     height: 24px;
     background: #EBECF1;
