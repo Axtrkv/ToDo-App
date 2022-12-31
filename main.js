@@ -12,12 +12,12 @@ function clean() {
   list.innerHTML = "";
 }
 
-// Remove old tasks (???)
+// Remove old tasks
 listRemoveBtn.addEventListener('click', () => {
   list.removeChild(listItem)
 })
 
-//Mark old tasks (???)
+//Mark old tasks
 listCheckBtn.addEventListener('click', () => {
   listCheckBtn.classList.add('inProcess')
 })
@@ -44,6 +44,7 @@ addBtn.addEventListener("click", () => {
   newCheckEl.className = "check";
   newCheckEl.type = "button";
   newDiv.appendChild(newCheckEl);
+  newCheckEl.title = 'Mark if done'
 
   let newRemoveEl = document.createElement("newRemoveEl");
   newRemoveEl.className = "remove";
