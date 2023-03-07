@@ -28,7 +28,7 @@ addBtn.addEventListener("click", () => {
   newDiv.id = newDiv;
   list.appendChild(newDiv);
   newDiv.className = "listItem";
-  newDiv.id = "newDiv";
+  newDiv.id = "newDiv"; 
 
   let newElement = document.createElement("newElement");
   newElement.className = "Task";
@@ -43,6 +43,8 @@ addBtn.addEventListener("click", () => {
     newDiv.remove();
     inputElement.value = "";
   }
+
+  inputElement.value = "";
 
   let newCheckEl = document.createElement("newCheckEl");
   newCheckEl.className = "check";
