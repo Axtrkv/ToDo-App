@@ -403,3 +403,204 @@
         order: 2;
     }
 }
+
+@media only screen and (max-width: 320px) {
+body {
+        font-family: Roboto Mono;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        color: #fff;
+        background: linear-gradient(to right, rgb(14, 71, 71), rgb(11, 119, 119));
+    }
+
+    .all {
+        margin: 0 auto;
+        margin-top: 10%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        gap: 16px;
+        width: 90%;
+        height: 80%;
+        border-radius: 4px;
+        text-align: center;
+    }
+    
+    .all .header {
+        margin-bottom: 14px;
+        margin-top: 20px;
+    }
+    
+    .all .main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        width: 90%;
+        height: 30px;
+        order: 0;
+        align-self: stretch;
+    }
+    
+    .all .example {
+        width: 90%;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #1B1C25;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+    
+    .all .main input {
+        outline: none;
+        border: 0;
+        color: #fff;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    .all .addBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        width: 30px;
+        height: 30px;
+        background: #2a8d7b;
+        border-radius: 10px;
+        border: 0;
+        order: 1;
+    }
+    
+    .all .addBtn.plus {
+        width: 30px;
+        height: 30px;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+        order: 0;
+        text-align: center;
+    }
+    
+    .all .removeBtn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        width: 30px;
+        height: 30px;
+        background: #DB6969;
+        border-radius: 10px;
+        border: 0;
+        order: 2;
+    }
+    
+    .all .removeBtn.ex {
+        width: 30px;
+        height: 30px;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+        order: 0;
+    }
+    
+    .listItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8px 12px;
+        gap: 8px;
+        width: 85%;
+        height: 30px;
+        order: 2;
+        align-self: stretch;
+        margin-top: 16px;
+    }
+    
+    .Task {
+        width: 80%;
+        height: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+        overflow: hidden;
+    }
+    
+    .check {
+        width: 16px;
+        height: 16px;
+        background: #EBECF1;
+        border-radius: 4px;
+        border: 0;
+        order: 0;
+    }
+    
+    .inProcess {
+        width: 16px;
+        height: 16px;
+        background: #203677;
+        border-radius: 4px;
+        border: 0;
+        order: 0;
+    }
+    
+    .all .addBtn {
+        width: 48px;
+        height: 48px;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        order: 0;
+        text-align: center;
+    }
+    
+    .taskInProcess {
+        text-decoration: line-through;
+    }
+    
+    .remove {
+        width: 16px;
+        height: 16px;
+        background: #DB6969;
+        border-radius: 4px;
+        border: 0;
+        order: 2;
+    }
+}
